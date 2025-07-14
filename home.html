@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trip to the Thrift</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+
+  <header></header>
+
+  <nav>
+    <div class="nav-links">
+      <div class="nav-title">Trip to The Thrift</div>
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+    </div>
+    <div class="user-info">
+      <i class="bi bi-person-circle"></i>
+      <span id="displayUsername">Guest</span>
+    </div>
+  </nav>
+
+  <div class="content-wrapper">
+    <main>
+      <div class="home-container">
+        <h2 class="introo-text">Welcome to Trip to the Thrift!</h2>
+        <br>
+        <br>
+        
+        <h2 class="introo-text">Elevate your Style</h2>
+         <br>
+          <br>
+
+        <h3>Want to dress like these kings?</h3>
+        <div class="image-list">
+          <div class="image-card"><img src="https://miro.medium.com/v2/resize:fit:800/1*oCRTpxQtxkbrF8YCm5fzMg.jpeg" alt="Ad 1"></div>
+          <div class="image-card"><img src="https://i.ytimg.com/vi/sYqKMZoCD7g/maxresdefault.jpg" alt="Ad 2"></div>
+          <div class="image-card"><img src="https://i.pinimg.com/736x/a9/75/fc/a975fcce29d4efc59d3ae296113320a6.jpg" alt="Ad 3"></div>
+          <div class="image-card"><img src="https://i.pinimg.com/1200x/8f/df/ad/8fdfadaa2ecf507b2d011ad4388ab571.jpg" alt="Ad 4"></div>
+          <div class="image-card"><img src="https://i.pinimg.com/736x/9d/54/d5/9d54d559dd0249ed3bb184daa3342ba1.jpg" alt="Ad 5"></div>
+          <div class="image-card"><img src="https://i.pinimg.com/736x/e2/8e/61/e28e61de47a0b9666b9e988e6d2a5bad.jpg" alt="Ad 6"></div>
+        </div>
+
+        <h3>Click below to elevate your fits!</h3>
+        <ul>
+          <li><a href="products.html">Explore here!</a></li>
+        </ul>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Trip to the Thrift. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const username = localStorage.getItem("username");
+    if (username) {
+      document.getElementById("displayUsername").textContent = username;
+    }
+  </script>
+</body>
+</html>
